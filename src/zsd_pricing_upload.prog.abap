@@ -31,7 +31,9 @@ INCLUDE:
 * INITIALIZATION
 *----------------------------------------------------------------------*
 INITIALIZATION.
-  CREATE OBJECT o_cond.
+  CREATE OBJECT o_cond
+    EXPORTING
+      use_header_line = p_header.
 *----------------------------------------------------------------------*
 * AT SELECTION-SCREEN
 *----------------------------------------------------------------------*

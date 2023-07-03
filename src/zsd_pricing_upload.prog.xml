@@ -11,9 +11,57 @@
    </PROGDIR>
    <TPOOL>
     <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Import</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Error handling</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>034</KEY>
+     <ENTRY>Upload SD prices generic</ENTRY>
+     <LENGTH>48</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>035</KEY>
+     <ENTRY>See https://tinyurl.com/sd-prices-upload for more information</ENTRY>
+     <LENGTH>122</LENGTH>
+    </item>
+    <item>
      <ID>R</ID>
      <ENTRY>Pricing upload</ENTRY>
      <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_EFILE</KEY>
+     <ENTRY>Error directory</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_ERROR</KEY>
+     <ENTRY>export errors?</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_FILE</KEY>
+     <ENTRY>Filename</ENTRY>
+     <LENGTH>16</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>P_HEADER</KEY>
+     <ENTRY>Import file contains header</ENTRY>
+     <LENGTH>35</LENGTH>
     </item>
    </TPOOL>
   </asx:values>
