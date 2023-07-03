@@ -9,7 +9,8 @@ from blogs.sap.com by [Tarun Gambhir](https://people.sap.com/tarun.gambhir)
 # Changes
 
 I changed the import file for use with CSV format (comma separated values).
-User ";" as delimiter in your file.
+
+Use ";" as delimiter in your file.
 
 # Upload structure
 ```
