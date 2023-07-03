@@ -3,7 +3,13 @@
 [Easy and efficient way of uploading pricing conditions in SAP system using a single exclusively designed program](https://blogs.sap.com/2015/08/31/easy-and-efficient-way-of-uploading-pricing-conditions-in-sap-system-using-a-single-exclusively-designed-program/)
 from blogs.sap.com by [Tarun Gambhir](https://people.sap.com/tarun.gambhir)
 
+## selection screen: 
+
 ![image](https://github.com/Ennowulff/sd_price_upload/assets/75187288/1cbbd15a-d5f4-43bc-8bb2-af2ed82d4e37)
+
+## import protocol:
+
+![image](https://github.com/Ennowulff/sd_price_upload/assets/75187288/591bec9e-253b-4d19-9261-227bf7bc8d85)
 
 
 # Changes
@@ -36,3 +42,16 @@ Use ";" as delimiter in your file.
 | KPEIN           | KPEIN         | Condition pricing unit                                      |
 | MEINS           | MEINS         | Base Unit of Measure                                        |
 | KRECH           | KRECH         | Calculation type for condition                              |
+| KSTBM           | KSTBM         | Condition scale quantity                                    |
+| KBETR2          | KBETR_KOND    | scale condition               |
+
+## hints
+
+* TABLE: use complete table name (e.g. A305)
+* KBETR: use "." as decimal separator
+* DATAB: use internal format yyyymmdd
+* DATBI: use internal format yyyymmdd
+
+## untested
+
+* scales import (KSTBM, KBETTR2)
