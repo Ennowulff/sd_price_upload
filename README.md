@@ -13,26 +13,26 @@ I changed the import file for use with CSV format (comma separated values).
 Use ";" as delimiter in your file.
 
 # Upload structure
-```
-Field Names	Data Type	Description
-KAPPL	KAPPL	Application
-KSCHL	KSCHL	Condition Type
-TABLE	TABNAME	    Table Name
-FLD1	FIELDNAME	  Field Name
-FLD2	FIELDNAME	  Field Name
-FLD3	FIELDNAME	  Field Name
-FLD4	FIELDNAME	  Field Name
-FLD5	FIELDNAME	  Field Name
-FLD6	FIELDNAME	  Field Name
-FLD7	FIELDNAME	  Field Name
-FLD8	FIELDNAME	  Field Name
-FLD9	FIELDNAME	  Field Name
-FLD10	FIELDNAME	  Field Name
-FLD11	FIELDNAME	  Field Name
-DATAB	KODATAB	    Validity start date of the condition record
-DATBI	KODATBI	    Validity end date of the condition record
-KBETR	KBETR_KOND	Rate (condition amount or percentage) where no scale exists
-KPEIN	KPEIN	      Condition pricing unit
-MEINS	MEINS	      Base Unit of Measure
-KRECH	KRECH	      Calculation type for condition
-```
+
+| **Field Names** | **Data Type** | **Description**                                             |
+|-----------------|---------------|-------------------------------------------------------------|
+| KAPPL           | KAPPL         | Application                                                 |
+| KSCHL           | KSCHL         | Condition Type                                              |
+| TABLE           | TABNAME       | Table Name                                                  |
+| FLD1            | FIELDNAME     | Field Name                                                  |
+| FLD2            | FIELDNAME     | Field Name                                                  |
+| FLD3            | FIELDNAME     | Field Name                                                  |
+| FLD4            | FIELDNAME     | Field Name                                                  |
+| FLD5            | FIELDNAME     | Field Name                                                  |
+| FLD6            | FIELDNAME     | Field Name                                                  |
+| FLD7            | FIELDNAME     | Field Name                                                  |
+| FLD8            | FIELDNAME     | Field Name                                                  |
+| FLD9            | FIELDNAME     | Field Name                                                  |
+| FLD10           | FIELDNAME     | Field Name                                                  |
+| FLD11           | FIELDNAME     | Field Name                                                  |
+| DATAB           | KODATAB       | Validity start date of the condition record                 |
+| DATBI           | KODATBI       | Validity end date of the condition record                   |
+| KBETR           | KBETR_KOND    | Rate (condition amount or percentage) where no scale exists |
+| KPEIN           | KPEIN         | Condition pricing unit                                      |
+| MEINS           | MEINS         | Base Unit of Measure                                        |
+| KRECH           | KRECH         | Calculation type for condition                              |
